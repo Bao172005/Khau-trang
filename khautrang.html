@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop Khẩu Trang</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+    .product {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .product h2 {
+      margin-top: 0.5rem;
+    }
+    .price {
+      color: #e60000;
+      font-weight: bold;
+    }
+    button {
+      background: #28a745;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #218838;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shop Khẩu Trang Vân Anh</h1>
+  </header>
+
+  <div class="container">
+    <div class="product">
+      <img src="https://via.placeholder.com/600x400?text=Kh%E1%BA%A9u+Trang+5D" alt="Khẩu Trang 5D">
+      <h2>Khẩu Trang 5D Vân Anh</h2>
+      <p>Thùng 500 cái, tặng thêm 20 cái. Lọc bụi, kháng khuẩn, thoáng khí.</p>
+      <p class="price">Giá: 125.000đ / thùng</p>
+      <button>Mua Ngay</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/600x400?text=Kh%E1%BA%A9u+Trang+KF94" alt="Khẩu Trang KF94">
+      <h2>Khẩu Trang KF94</h2>
+      <p>Lọc bụi siêu mịn, kháng khuẩn, thiết kế ôm sát mặt.</p>
+      <p class="price">Giá: 129.000đ / thùng (300 cái)</p>
+      <button>Mua Ngay</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/600x400?text=Kh%E1%BA%A9u+Trang+9A" alt="Khẩu Trang 9A">
+      <h2>Khẩu Trang 9A</h2>
+      <p>Chất liệu dày dặn, dễ thở. Thùng 50 cái, phù hợp gia đình.</p>
+      <p class="price">Giá: 35.000đ / thùng</p>
+      <button>Mua Ngay</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/600x400?text=Kh%E1%BA%A9u+Trang+Y+T%E1%BA%BF" alt="Khẩu Trang Y Tế">
+      <h2>Khẩu Trang Y Tế 4 lớp</h2>
+      <p>Lọc vi khuẩn, kháng bụi, đạt tiêu chuẩn an toàn y tế.</p>
+      <p class="price">Giá: 55.000đ / hộp (50 cái)</p>
+      <button>Mua Ngay</button>
+    </div>
+  </div>
+</body>
+</html>
